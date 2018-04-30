@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/parentView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/leftBrokenEgg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/broken"
+            android:layout_margin="30dp"
+            android:visibility="invisible"
+            android:paddingBottom="65dp"/>
+
+        <ImageView
+            android:id="@+id/centerBrokenEgg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/broken"
+            android:visibility="invisible"
+            android:layout_margin="30dp"
+            android:paddingBottom="65dp"/>
+
+        <ImageView
+            android:id="@+id/rightBrokenEgg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/broken"
+            android:visibility="invisible"
+            android:layout_margin="30dp"
+            android:paddingBottom="65dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/eggsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:background="@drawable/egg_background"
+        android:layout_margin="15dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#fff"
+        android:layout_below="@id/eggsLayout"
+        android:layout_alignParentEnd="true"/>
+
+
+    <ImageView
+        android:id="@+id/basket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/navigationControl"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/basket" />
+
+    <LinearLayout
+        android:id="@+id/navigationControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/moveLeft"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/left"/>
+
+        <Button
+            android:id="@+id/moveCenter"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/center"/>
+
+        <Button
+            android:id="@+id/moveRight"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/right"/>
+    </LinearLayout>
+</RelativeLayout>

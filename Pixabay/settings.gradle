@@ -1,0 +1,1 @@
+include ':pixabay-bronze', ':pixabay-silver', ':pixabay-gold'

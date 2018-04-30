@@ -1,0 +1,1 @@
+include ':spy-detector-bronze', ':spy-detector-silver', ':spy-detector-gold'

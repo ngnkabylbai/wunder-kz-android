@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/startuplabs.iml" filepath="$PROJECT_DIR$/startuplabs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchColorBronze/switchColorBronze.iml" filepath="$PROJECT_DIR$/switchColorBronze/switchColorBronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchColorSilver/switchColorSilver.iml" filepath="$PROJECT_DIR$/switchColorSilver/switchColorSilver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swtichColorGold/swtichColorGold.iml" filepath="$PROJECT_DIR$/swtichColorGold/swtichColorGold.iml" />
+    </modules>
+  </component>
+</project>

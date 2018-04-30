@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Timer.iml" filepath="$PROJECT_DIR$/Timer.iml" />
+      <module fileurl="file://C:\Users\Nurbek Kabylbay\AndroidStudioProjects\Timer\timerBronze\timer.iml" filepath="C:\Users\Nurbek Kabylbay\AndroidStudioProjects\Timer\timerBronze\timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timerBronze/timerBronze.iml" filepath="$PROJECT_DIR$/timerBronze/timerBronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timerGold/timerGold.iml" filepath="$PROJECT_DIR$/timerGold/timerGold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timerSilver/timerSilver.iml" filepath="$PROJECT_DIR$/timerSilver/timerSilver.iml" />
+    </modules>
+  </component>
+</project>

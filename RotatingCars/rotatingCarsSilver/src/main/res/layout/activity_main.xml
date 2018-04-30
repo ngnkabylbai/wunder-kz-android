@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/firstImg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/car1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/secondImg"/>
+
+    <ImageView
+        android:id="@+id/secondImg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/car2"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/thirdImg"
+        app:layout_constraintTop_toBottomOf="@id/firstImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/thirdImg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/car3"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/fourthImg"
+        app:layout_constraintTop_toBottomOf="@id/secondImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/fourthImg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/car4"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thirdImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

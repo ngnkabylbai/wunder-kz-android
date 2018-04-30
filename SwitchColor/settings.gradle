@@ -1,0 +1,1 @@
+include ':switchColorBronze', ':switchColorSilver', ':swtichColorGold'

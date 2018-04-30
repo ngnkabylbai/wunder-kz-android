@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KitApp</string>
+
+    <string-array name="dateFilter">
+        <item>По умолчанию</item>
+        <item>Новые сверху</item>
+    </string-array>
+
+    <string-array name="typeFilter">
+        <item>Все</item>
+        <item>Книги</item>
+        <item>Журналы</item>
+    </string-array>
+</resources>

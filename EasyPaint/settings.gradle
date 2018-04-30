@@ -1,0 +1,1 @@
+include ':easy-paint-bronze', ':easy-paint-silver', ':easy-paint-gold'

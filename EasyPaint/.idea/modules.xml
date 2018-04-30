@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyPaint.iml" filepath="$PROJECT_DIR$/EasyPaint.iml" />
+      <module fileurl="file://C:\Users\Nurbek Kabylbay\AndroidStudioProjects\EasyPaint\easy-paint-bronze\app.iml" filepath="C:\Users\Nurbek Kabylbay\AndroidStudioProjects\EasyPaint\easy-paint-bronze\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-paint-bronze/easy-paint-bronze.iml" filepath="$PROJECT_DIR$/easy-paint-bronze/easy-paint-bronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-paint-gold/easy-paint-gold.iml" filepath="$PROJECT_DIR$/easy-paint-gold/easy-paint-gold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easy-paint-silver/easy-paint-silver.iml" filepath="$PROJECT_DIR$/easy-paint-silver/easy-paint-silver.iml" />
+    </modules>
+  </component>
+</project>

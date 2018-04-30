@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpyDetector.iml" filepath="$PROJECT_DIR$/SpyDetector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spy-detector-bronze/spy-detector-bronze.iml" filepath="$PROJECT_DIR$/spy-detector-bronze/spy-detector-bronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spy-detector-gold/spy-detector-gold.iml" filepath="$PROJECT_DIR$/spy-detector-gold/spy-detector-gold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spy-detector-silver/spy-detector-silver.iml" filepath="$PROJECT_DIR$/spy-detector-silver/spy-detector-silver.iml" />
+    </modules>
+  </component>
+</project>

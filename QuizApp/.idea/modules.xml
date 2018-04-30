@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QuizAppBronze.iml" filepath="$PROJECT_DIR$/QuizAppBronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quizzAppBronze/quizzAppBronze.iml" filepath="$PROJECT_DIR$/quizzAppBronze/quizzAppBronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quizzAppGold/quizzAppGold.iml" filepath="$PROJECT_DIR$/quizzAppGold/quizzAppGold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quizzAppSilver/quizzAppSilver.iml" filepath="$PROJECT_DIR$/quizzAppSilver/quizzAppSilver.iml" />
+    </modules>
+  </component>
+</project>

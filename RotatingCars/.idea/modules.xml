@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rotatingCars.iml" filepath="$PROJECT_DIR$/rotatingCars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotatingCarsBronze/rotatingCarsBronze.iml" filepath="$PROJECT_DIR$/rotatingCarsBronze/rotatingCarsBronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotatingCarsGold/rotatingCarsGold.iml" filepath="$PROJECT_DIR$/rotatingCarsGold/rotatingCarsGold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rotatingCarsSilver/rotatingCarsSilver.iml" filepath="$PROJECT_DIR$/rotatingCarsSilver/rotatingCarsSilver.iml" />
+    </modules>
+  </component>
+</project>

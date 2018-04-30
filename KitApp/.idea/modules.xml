@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KitApp.iml" filepath="$PROJECT_DIR$/KitApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kit-app-bronze/app.iml" filepath="$PROJECT_DIR$/kit-app-bronze/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kit-app-gold/kit-app-gold.iml" filepath="$PROJECT_DIR$/kit-app-gold/kit-app-gold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kit-app-silver/kit-app-silver.iml" filepath="$PROJECT_DIR$/kit-app-silver/kit-app-silver.iml" />
+    </modules>
+  </component>
+</project>

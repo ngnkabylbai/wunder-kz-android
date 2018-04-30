@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EggsToss.iml" filepath="$PROJECT_DIR$/EggsToss.iml" />
+      <module fileurl="file://C:\Users\Nurbek Kabylbay\AndroidStudioProjects\EggsToss\eggs-toss-silver\app.iml" filepath="C:\Users\Nurbek Kabylbay\AndroidStudioProjects\EggsToss\eggs-toss-silver\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eggs-toss-bronze/eggs-toss-silver.iml" filepath="$PROJECT_DIR$/eggs-toss-bronze/eggs-toss-silver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eggs-toss-gold/eggs-toss-gold.iml" filepath="$PROJECT_DIR$/eggs-toss-gold/eggs-toss-gold.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eggs-toss-silver/eggs-toss-silver.iml" filepath="$PROJECT_DIR$/eggs-toss-silver/eggs-toss-silver.iml" />
+    </modules>
+  </component>
+</project>

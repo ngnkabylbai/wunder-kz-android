@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/promptTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Что вы хотите узнать?"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/profBackground"/>
+
+
+    <View
+        android:id="@+id/profBackground"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toTopOf="@id/paymentBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/promptTextView" />
+
+    <View
+        android:id="@+id/paymentBackground"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        app:layout_constraintTop_toBottomOf="@id/profBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/carBackground"/>
+
+    <View
+        android:id="@+id/carBackground"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintTop_toBottomOf="@id/paymentBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/prof"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Моя будущая профессия"
+        android:textColor="#fff"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="@id/profBackground"
+        app:layout_constraintEnd_toEndOf="@id/profBackground"
+        app:layout_constraintTop_toTopOf="@id/profBackground"
+        app:layout_constraintBottom_toBottomOf="@id/profBackground"/>
+
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Моя будущая заработная плата"
+        android:textColor="#fff"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="@id/paymentBackground"
+        app:layout_constraintEnd_toEndOf="@id/paymentBackground"
+        app:layout_constraintTop_toTopOf="@id/paymentBackground"
+        app:layout_constraintBottom_toBottomOf="@id/paymentBackground"/>
+
+    <Button
+        android:id="@+id/car"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:text="Мой будущий автомобиль"
+        android:background="#000"
+        app:layout_constraintStart_toStartOf="@id/carBackground"
+        app:layout_constraintEnd_toEndOf="@id/carBackground"
+        app:layout_constraintTop_toTopOf="@id/carBackground"
+        app:layout_constraintBottom_toBottomOf="@id/carBackground"/>
+
+</android.support.constraint.ConstraintLayout>
